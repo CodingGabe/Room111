@@ -1,0 +1,325 @@
+/* custom CSS */
+
+html,
+body {
+  height: 100%;
+  background-color: #252422;
+}
+body {
+    color: #FFFCF2;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Kreon', serif;
+}
+
+/* Brand colors 
+
+primary: #252422;
+secondary: #EB5E28;
+light: #FFFCF2;
+
+*/
+
+.brand {
+    color: #EB5E28;
+}
+
+#stage {
+    background: #252422;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage img {
+    height: 350px;
+    width: 250px;
+    padding: 2em 0;
+}
+
+#stage-caption {
+    font-size: 1.4em;
+    font-weight: 200;
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stage-caption h3 {
+    line-height: 1.234;
+    color: #FFFCF2;
+    letter-spacing: 2px;
+}
+
+#events {
+    text-align: center;
+    padding: 8em 0;
+    background: #fff;
+    color: #252422;
+}
+
+#events img {
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 5px 10px #333;
+}
+
+#about {
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.234;
+    background: #fff;
+    color: #252422;
+    padding: 8em 0;
+}
+
+#contact {
+    padding: 5em 0;
+    background: #FFFCF2;
+    color: #252422;
+}
+
+#contact p {
+    letter-spacing: -1px;
+    font-weight: lighter;
+}
+
+#contact h6 {
+    text-transform: uppercase;
+    color: #EB5E28;
+    font-size: 0.75em;
+}
+
+.headings {
+    line-height: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.stuff {
+    padding-top: 20px;
+}
+
+.mini {
+    background: #FFFCF2;
+    padding: 40px;
+    color: #252422;
+    margin: 0;
+    text-align: center;
+}
+
+.headings h2 {
+    font-size: 1.375em;
+    line-height: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.headings p {
+    font-size: 0.688em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+#events-two {
+    text-align: center;
+    padding: 8em 0;
+    background: #252422;
+    color: #FFFCF2;
+}
+
+#events-two img {
+    height: 450px;
+    width: 350px;
+}
+
+.feature-content img {
+    height: 250px;
+    width: 250px;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-block {
+    min-width: 145px;
+    padding-top: 48px;
+    padding-bottom: 38px;
+    position: relative;
+}
+
+.section-hays {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/background.jpg);
+    text-align: center;
+}
+
+.btn.btn-address {
+    border: 3px solid #E63946;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 6px;
+    margin: 0 0 0 24px;
+    color: #E63946;
+}
+
+/* Social Button */
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -webkit-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -moz-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -o-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+    color: #000;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -webkit-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -moz-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -o-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    transition: all ease 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -webkit-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: bold;
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  color: #EB5E28;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: ;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/* Media queries */
+
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 42rem;
+  }
+}
+
+@media screen and ( min-width: 991px ) {
+    #events-two {
+        display: flex;
+        align-items: center;
+    }
+}
